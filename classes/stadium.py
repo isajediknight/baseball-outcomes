@@ -1,16 +1,16 @@
 class Stadium:
     def __init__(self,name='',capacity=0,location_city='',location_state='',surface='',team='',opened='',center_field_distance_english=0,center_field_distance_metric=0,stadium_type='',roof_type=''):
-        self.name = name
-        self.capacity = capacity
-        self.location_city = location_city
-        self.location_state = location_state
-        self.surface = surface
-        self.team = team
-        self.opened = opened
-        self.center_field_distance_english = center_field_distance_english
-        self.center_field_distance_metric = center_field_distance_metric
-        self.stadium_type = stadium_type
-        self.roof_type = roof_type
+        self.name = name#American Family Fielddouble-dagger
+        self.capacity = capacity#41900
+        self.location_city = location_city#Milwaukee
+        self.location_state = location_state#Wisconsin
+        self.surface = surface#Grass
+        self.team = team#Milwaukee Brewers
+        self.opened = opened#2001
+        self.center_field_distance_english = center_field_distance_english#400
+        self.center_field_distance_metric = center_field_distance_metric#122
+        self.stadium_type = stadium_type#Retro-modern
+        self.roof_type = roof_type#Retractable
         
     def get_name(self):
         return self.name
